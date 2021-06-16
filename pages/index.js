@@ -19,7 +19,7 @@ export default function Home() {
             "Family owned business, taking care of a range of construction services. From residental to commercial, their percision teams can handle the job correctly.",
           images: [
             {
-              url: "http://8df5f407d65a.ngrok.io/kcs-back.jpg",
+              url: "https://kcsnw.vercel.app/kcs-back.jpg",
               width: 600,
               height: 360,
               alt: "KCS Logo",
@@ -70,10 +70,10 @@ export default function Home() {
               Krell Construction Services was started to fill a specific need in
               the industry. Thousands of smaller operations need to be completed
               every day and each is specific to you and your business. Very few
-              companies want to tackle these short-duration projects. <br/><br/> KCS was
-              developed with that in mind. We focus on being available and
-              prepared for shorter-duration jobs, giving you the flexibility and
-              control you need in your scheduling.
+              companies want to tackle these short-duration projects. <br />
+              <br /> KCS was developed with that in mind. We focus on being
+              available and prepared for shorter-duration jobs, giving you the
+              flexibility and control you need in your scheduling.
             </p>
           </div>
           <div className="flex items-start pt-5 flex-col">
