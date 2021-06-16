@@ -82,11 +82,11 @@ export default function Home() {
               <h1 className="font-mono text-2xl absolute">Commercial</h1>
             </div>
             <ol className="font-mono text-lg mt-3 list-inside">
-              <li className="pt-1 pb-1"> - Punch List Items</li>
               <li className="pt-1 pb-1"> - Electrical Trenching </li>
               <li className="pt-1 pb-1"> - Plumbing Trenching </li>
               <li className="pt-1 pb-1"> - Warranty Work </li>
               <li className="pt-1 pb-1"> - Grading Sidewalks, Driveways</li>
+              <li className="pt-1 pb-1"> - Punch List Items</li>
             </ol>
           </div>
           <div className="flex  pt-5 flex-col ml-10">
