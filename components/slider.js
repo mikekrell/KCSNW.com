@@ -2,8 +2,10 @@ import React from 'react'
 import Whirligig from "react-whirligig";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import useWindowSize from '../hooks/useWindowSize';
 
 export default function Slider() {
+  const size = useWindowSize()
   let whirligig
   const next = () => whirligig.next()
   const prev = () => whirligig.prev()
@@ -15,9 +17,8 @@ export default function Slider() {
       </div>
 
       <Whirligig
-        visibleSlides={4}
-        gutter=".5em"
-        infinte={true}
+        visibleSlides={size.width > 500 ? 4 : 2}
+        gutter={size.width > 500 ? "1em" : ".5em"}
         ref={(_whirligigInstance) => {
           whirligig = _whirligigInstance;
         }}

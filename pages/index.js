@@ -3,9 +3,11 @@ import NavBar from '../components/navbar'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import Slider from '../components/slider'
+
 import { NextSeo } from "next-seo";
 
 export default function Home() {
+
   return (
     <div className="w-full h-auto">
       <NextSeo
