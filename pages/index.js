@@ -19,7 +19,7 @@ export default function Home() {
             "Family owned business, taking care of a range of construction services. From residental to commercial, their percision teams can handle the job correctly.",
           images: [
             {
-              url: "https://kcsnw.vercel.app/kcs-back.jpg",
+              url: "https://www.kcsnw.com/kcs-back.jpg",
               width: 600,
               height: 360,
               alt: "KCS Logo",

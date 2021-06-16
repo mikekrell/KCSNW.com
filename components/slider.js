@@ -32,7 +32,6 @@ export default function Slider() {
         />
         <img src="IMAG0170_Original.jpg" className="object-cover w-72 h-72" />
         <img src="IMAG0209_Original.jpg" className="object-cover w-72 h-72" />
-        <img src="IMAG0210_Original.jpg" className="object-cover w-72 h-72" />
         <img src="IMAG0261_Original.jpg" className="object-cover w-72 h-72" />
         <img src="IMAG0263_Original.jpg" className="object-cover w-72 h-72" />
         <img src="IMAG0297_Original.jpg" className="object-cover w-72 h-72" />
